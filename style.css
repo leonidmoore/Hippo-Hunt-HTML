@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#gameboard {
+    position: fixed;
+    top: 0%;
+    left: 25%;
+}
+
+#gui {
+    position: fixed;
+    border-style: solid;
+    border-color: red;
+    top: 0%;
+    left: 14.5%;
+    visibility: hidden;
+}
+
+#scoreText {
+    font-size: 20px;
+    position: absolute;
+    top: 7%;
+    left: 18%;
+    visibility: hidden;
+}
+
+#scoreNumber {
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 18.5%;
+    visibility: hidden;
+}
+
+#levelText {
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    visibility: hidden;
+}
+
+#levelNumber {
+    font-size: 20px;
+    position: absolute;
+    top: 18%;
+    left: 18.9%;
+    visibility: hidden;
+}
+
+#bestScoreL {
+    position: absolute;
+    top: 31.5%;
+    left: 51%;
+    
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 2px #215837;
+    
+    visibility: hidden;
+}
+
+#pauseText {
+    position: absolute;
+    top: 37.5%;
+    left: 38.5%;
+    
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    color: #ff00aa;
+    -webkit-text-stroke: 2px #000000;
+    
+    visibility: hidden;
+}
